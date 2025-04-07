@@ -1,0 +1,101 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: background 0.3s, color 0.3s;
+  }
+  
+  body.light {
+    background: #f5f5f5;
+    color: #222;
+  }
+  
+  body.dark {
+    background: #121212;
+    color: #f5f5f5;
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: auto;
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  h1 {
+    margin-bottom: 1rem;
+  }
+  
+  form {
+    margin-bottom: 2rem;
+  }
+  
+  input[type="text"] {
+    width: 80%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+  }
+  
+  button {
+    margin-top: 1rem;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 8px;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    transition: background 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  #qr-result img {
+    margin-top: 1.5rem;
+    width: 200px;
+  }
+  
+  #download-link {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 8px 16px;
+    background-color: #2196F3;
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+  }
+  
+  .theme-toggle {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+  }
+  
+  .theme-icon-btn {
+    font-size: 1.5rem;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    transition: transform 0.2s ease;
+  }
+  
+  .theme-icon-btn:hover {
+    transform: scale(1.2);
+  }
+  
+  audio {
+    position: fixed;
+    bottom: 10px;
+    left: 10px;
+  }
+  
+  footer {
+    margin-top: 2rem;
+    font-size: 0.9rem;
+    opacity: 0.6;
+  }
+  
