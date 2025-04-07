@@ -38,3 +38,6 @@ This is a **QR Code Generator** web application built with **HTML**, **CSS**, an
 
    ```bash
    git clone https://github.com/otopxy/qr-temi.git
+2. You can test the live demo here:
+
+   qr-temi.vercel.app
